@@ -25,4 +25,4 @@ Auth, Cats sorting, Sync with DB for each individual queries
 
 ## Testing Phase checkout
 
-Open this [https://fuckyouitsnotreadyyetmotherfucker.com](link) to access App in a testing phase
+Open this [link with a funny address](https://fuckyouitsnotreadyyetmotherfucker.com) to access App in a testing phase
