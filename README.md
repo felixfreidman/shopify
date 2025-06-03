@@ -2,12 +2,12 @@
 
 This is a side project for my fiancée to plan her groceries, clothes and other things to buy
 
-### Technologies
+## Technologies
 
 React, Redux, TypeScript - FrontEnd <br>
 TypeScript, MongoDB - BackEnd
 
-### Planned Screens
+## Planned Screens
 
 <ul>
     <li>Login Screen (Auth for 2 People Max)</li> 
@@ -19,10 +19,10 @@ TypeScript, MongoDB - BackEnd
     <li>Cart (Screen for Food Only goods)</li>
 </ul>
 
-### Planned Functionality
+## Planned Functionality
 
 Auth, Cats sorting, Sync with DB for each individual queries
 
-### Testing Phase checkout
+## Testing Phase checkout
 
-Open this <a href="https://fuckyouitsnotreadyyetmotherfucker.com">link</a> to access App in a testing phase
+Open this [https://fuckyouitsnotreadyyetmotherfucker.com](link) to access App in a testing phase

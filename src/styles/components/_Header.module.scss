@@ -1,0 +1,17 @@
+.Header {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 30px 12px 40px;
+
+  &__logo {
+    width: auto;
+    height: 50px;
+  }
+
+  &__login {
+    width: 32px;
+    height: 32px;
+  }
+}
