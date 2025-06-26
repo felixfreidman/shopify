@@ -1,0 +1,15 @@
+.Button {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: $b_lightgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg,
+	img {
+		width: 17px;
+		height: 17px;
+	}
+}

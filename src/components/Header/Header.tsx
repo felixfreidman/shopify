@@ -1,13 +1,24 @@
 import React from "react";
-import logo from "../../images/static/logo.png";
-import loginImage from "../../images/content/person.png";
+import logo from "../../images/static/image__logo.png";
+import { ReactComponent as SettingsLogo } from "../../images/icons/icon__settings.svg";
 import classes from "../../index.module.scss";
+import ButtonLink from "../UI/ButtonLink/ButtonLink";
+import Button from "../UI/Button/Button";
 
-export const Header = () => {
-  return (
-    <header className={classes.Header}>
-      <img src={logo} alt="Logo" className={classes.Header__logo} />
-      <img src={loginImage} alt="Login" className={classes.Header__login} />
-    </header>
-  );
-};
+interface HeaderComponent {
+	title: string;
+}
+
+function Header({ title }: HeaderComponent) {
+	return (
+		<header className={classes.Header}>
+			<img src={logo} alt="" className={classes.Header__logo} />
+			<span className={classes.Header__PageName}>{title}</span>
+			<ButtonLink to="/settings">
+				<SettingsLogo />
+			</ButtonLink>
+		</header>
+	);
+}
+
+export default Header;

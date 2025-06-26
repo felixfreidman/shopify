@@ -1,17 +1,30 @@
 .Header {
-  width: 100%;
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  padding: 30px 12px 40px;
+	width: 100%;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	padding: 26px 24px;
 
-  &__logo {
-    width: auto;
-    height: 50px;
-  }
+	&__logo {
+		width: auto;
+		height: 40px;
+	}
 
-  &__login {
-    width: 32px;
-    height: 32px;
-  }
+	&__PageName {
+		padding: 8px 16px;
+		background: $p_blue;
+		border-radius: 18px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: center;
+		letter-spacing: -0.16px;
+		color: $b_white;
+	}
+
+	&__login {
+		width: 32px;
+		height: 32px;
+	}
 }
